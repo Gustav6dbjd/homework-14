@@ -23,7 +23,7 @@ async function runFetch() {
 
   
 
- /* 
+ 
 async function createUser(user) {
 try {
   let response = await fetch('https://jsonplaceholder.typicode.com/users', {
@@ -41,11 +41,11 @@ try {
   console.log('Созданный пользователь', result);
  } catch (error) {
   console.error('Произошла ошибка', error);
-}
+}}
 
-  */
+  
 
-/* 
+
 async function updateUser(id, updatedData) {
 try {
   const response = await fetch(`https:jsonplaceholder.typicode.com/users/${id}`, {
@@ -66,4 +66,4 @@ try {
   console.error('Произошла ошибка', error);
 }
 }
-  */
+  
